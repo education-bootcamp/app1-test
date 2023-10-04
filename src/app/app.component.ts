@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   message='this data object is from the Parent component!';
+  childData:string='';
+  setData(event:any){
+    this.childData=event;
+  }
 
 }

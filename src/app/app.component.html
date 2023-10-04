@@ -1,2 +1,6 @@
 
 <app-header [receiveMessage]="message"></app-header>
+<hr>
+<app-nav-bar (dataEvent)="setData($event)"></app-nav-bar>
+<hr>
+{{childData}}
