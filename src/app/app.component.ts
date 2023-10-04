@@ -6,15 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  name='Kamal';
-  imageUrl='https://storage.googleapis.com/pod_public/1300/159526.jpg';
-  click(){
-    this.name='Bandara';
-  }
-
-  animal='Dog';
-  changeAnimal(animalName:string){
-    this.animal=animalName;
-  }
-
+  isDisabled=false;
+/*  changeState(){
+    // this.isDisabled=!this.isDisabled;
+    /!*if (this.isDisabled){
+      this.isDisabled=false;
+    }else{
+      this.isDisabled=true;
+    }*!/
+  }*/
 }

@@ -1,11 +1,2 @@
-My name is : {{name}}
-<hr>
-<img width="100" [src]="imageUrl" alt="">
-<hr>
-<img width="100" src="{{imageUrl}}" alt="">
-<hr>
-<button (click)="click()">Click here</button>
-<hr>
-<input type="text" #templateVar>
-<button (click)="changeAnimal(templateVar.value)">display Data</button>
-{{animal}}
+<button (click)="isDisabled=!isDisabled">Manage State</button>
+<input type="text" [attr.disabled]="isDisabled?'':null">
