@@ -1,3 +1,11 @@
-<app-header></app-header>
-<h1>This is the App (root) Component</h1>
+My name is : {{name}}
 <hr>
+<img width="100" [src]="imageUrl" alt="">
+<hr>
+<img width="100" src="{{imageUrl}}" alt="">
+<hr>
+<button (click)="click()">Click here</button>
+<hr>
+<input type="text" #templateVar>
+<button (click)="changeAnimal(templateVar.value)">display Data</button>
+{{animal}}

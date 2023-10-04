@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app1';
+  name='Kamal';
+  imageUrl='https://storage.googleapis.com/pod_public/1300/159526.jpg';
+  click(){
+    this.name='Bandara';
+  }
+
+  animal='Dog';
+  changeAnimal(animalName:string){
+    this.animal=animalName;
+  }
+
 }
