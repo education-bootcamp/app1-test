@@ -6,13 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  isDisabled=false;
-/*  changeState(){
-    // this.isDisabled=!this.isDisabled;
-    /!*if (this.isDisabled){
-      this.isDisabled=false;
-    }else{
-      this.isDisabled=true;
-    }*!/
-  }*/
+  name='';
+
 }
